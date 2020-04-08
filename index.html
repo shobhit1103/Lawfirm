@@ -43,15 +43,7 @@
             height: 100%;
             width: 100%;
         }
-        .modalconent {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: #fff;
-            width: 80%;
-            padding: 80px;
-        }
+        
         </style>
 
     
@@ -60,21 +52,23 @@
 <body>
     <div id="modal">
         <div class="modalconent">   
-    <table width="95%" border="0" cellspacing="3" cellpadding="3">
-            <tr>
-              <td><h1 class="text-primary"><strong>Disclaimer</strong></h1></td>
-            </tr>
-            <tr>
-              <td><p>This website is meant solely for the purpose of providing information and not for advertising or soliciting any work whether directly or indirectly. Further, any content provided under this website should not be construed as legal advice. We are not liable for any consequence of any action taken by the user relying on content provided under this website.</p>
-                <p>By clicking on &ldquo;I Accept&rdquo; the visitor acknowledges that:</p>
-                <ul>
-                  <li>she/he wishes to gain more information about us and </li>
-                  <li>there has been no invitation or advertisement of any sort whatsoever to solicit any work through this website</li>
-              </ul>          </td>
-            </tr>
-          </table>
-            <button id="button" class="btn-danger text-center">I Agree</button>
-        </div>
+            
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-primary">DISCLAIMER</h5>
+                    
+                    </div>
+                    <div class="modal-body">
+                      <p> text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                      
+                      <button id="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
     </div>
 
     
