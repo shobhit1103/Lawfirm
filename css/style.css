@@ -408,6 +408,7 @@ h3 {
   border: 1px solid #F2C64D;
   text-align: center;
   text-transform: capitalize;
+  border-radius:90px;
 }
 
 /* line 76, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_btn.scss */
@@ -1457,7 +1458,7 @@ h3 {
     margin-left: 0;
     margin-right: 0;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 }
 
