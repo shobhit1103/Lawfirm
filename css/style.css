@@ -1262,6 +1262,10 @@ h3 {
     padding-right: 25px;
   }
 }
+#main-footerr{
+  margin-top:5%;
+}
+
 
 
 .footer {
@@ -1276,7 +1280,7 @@ h3 {
 }
 
 .margin{
-  padding-bottom:10%;
+  padding-bottom:7%;
 }
 
 
@@ -1527,7 +1531,7 @@ h3 {
 .about_area {
   background: #FFFDF8;
   padding-top: 30px;
-  padding-bottom: 120px;
+  padding-bottom: 10px;
   margin-right: 50px;
   margin-left: 50px;
   position: relative;
