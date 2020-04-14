@@ -1237,12 +1237,52 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
   .practice_area {
-    padding-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
+  .practice_area1 {
+   
     padding-bottom: 80px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+@media (max-width: 767px) {
+  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
+  .practice_area2 {
+    
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+#main-footerr{
+  margin-top:5%;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  
+}
+
+.margin{
+  padding-bottom:7%;
+}
+
 
 /* line 13, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
 .practice_area.practice_area2 {
@@ -1491,7 +1531,7 @@ h3 {
 .about_area {
   background: #FFFDF8;
   padding-top: 30px;
-  padding-bottom: 120px;
+  padding-bottom: 10px;
   margin-right: 50px;
   margin-left: 50px;
   position: relative;
