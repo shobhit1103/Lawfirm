@@ -1237,12 +1237,33 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
   .practice_area {
-    padding-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
+  .practice_area1 {
+   
     padding-bottom: 80px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+@media (max-width: 767px) {
+  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
+  .practice_area2 {
+    
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+
 
 /* line 13, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
 .practice_area.practice_area2 {
