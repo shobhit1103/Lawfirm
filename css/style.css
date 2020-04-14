@@ -1264,6 +1264,21 @@ h3 {
 }
 
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  
+}
+
+.margin{
+  padding-bottom:10%;
+}
+
 
 /* line 13, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
 .practice_area.practice_area2 {
