@@ -51,7 +51,7 @@ a:focus,
 
 /* line 27, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
 a:focus {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ a:hover,
 /* line 38, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
+  color: rgb(0, 0, 0);
   outline: medium none;
 }
 
@@ -706,7 +706,7 @@ h3 {
 
 /* line 106, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slick-nav.scss */
 .slicknav_icon-bar {
-  background: #fff !important;
+  background: black !important;
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
@@ -716,7 +716,7 @@ h3 {
   top: 0;
   background: transparent;
   z-index: 999;
-  background: #000;
+  background: white;
 }
 
 /* line 9, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
@@ -793,7 +793,7 @@ h3 {
 
 /* line 46, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: black;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 400;
@@ -839,14 +839,14 @@ h3 {
 
 /* line 73, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active {
-  color: #F2C64D;
+  color: rgb(0, 0, 0);  /*Nav elements color*/
 }
 
 /* line 76, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #F2C64D;
+  background:  rgb(43, 27, 104);
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -904,7 +904,7 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
   display: block;
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 
 /* line 123, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
@@ -943,7 +943,7 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: #000;
+  background: rgb(255, 255, 255); /*ANIMATION NAV BAR COLOR HERE */
 }
 
 @media (max-width: 767px) {
