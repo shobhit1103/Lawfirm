@@ -88,8 +88,40 @@ body {
   display:block;
 }
 
+#disp1{
+  display: none;
+}
+#disp1:target{
+  display: block;
+}
+
+#disp2{
+  display: none;
+}
+#disp2:target{
+  display:block;
+}
+#disp3{
+  display: none;
+}
+#disp3:target{
+  display: block;
+}
+#disp4{
+  display: none;
+}
+#disp4:target{
+  display:block;
+}
+#disp5{
+  display: none;
+}
+#disp5:target{
+  display:block;
+}
+
 .lawyer-bg{
-  background:rgba(0,0,0,.4);
+   background:rgb(0, 0,0,0.7);
     cursor:pointer;
     height:100%;
     position:fixed;
@@ -104,15 +136,14 @@ body {
 
 .lawyer-details{
       background-color: white;
-      opacity:1;
       width: 700px;
       display: flex;
       flex-direction: row;
-      /* flex-wrap: wrap; */
       justify-content:space-between; 
       padding: 30px;
       overflow:scroll;
       overflow-x: hidden;
+      z-index:200;
 }
 
 .ly-img{
@@ -145,6 +176,34 @@ body {
   font-size: 15px;
   font-family: sans-serif;
 }
+
+#close-btn{
+  background-color:white;
+  border: 1px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  
+}
+
+a:hover {
+  color:black;
+  text-decoration: underline;
+}
+
+
+
+
 
 /* line 14, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
 .img {
