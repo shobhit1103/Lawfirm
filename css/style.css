@@ -137,11 +137,12 @@ body {
 .lawyer-details{
       background-color: white;
       width: 900px;
-      height: 500px;
+      /* height: 500px; */
       display: flex;
       flex-direction: row;
-      justify-content:space-between; 
+      justify-content:space-around; 
       padding: 30px;
+      flex-wrap: wrap;
       overflow:scroll;
       overflow-x: hidden;
       z-index:200;
@@ -164,9 +165,12 @@ body {
 
 .description{
   text-align: justify;
-  padding-left: 40px;
+  flex-shrink: inherit;
+  /* width: 600px; */
+  width: 50vw;
+  /* overflow: auto; */
+  padding-left: 10px;
   margin-top: 20px;
-  
 }
 
 .description > h3 {
@@ -5234,6 +5238,12 @@ h6 {
   }
 }
 
+/* 956 */
+@media (max-width: 576px){
+  .description {
+    width: 400px;
+  }
+}
 /* line 1445, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_blog.scss */
 .comment-form .form-control {
   border: 1px solid #f0e9ff;
