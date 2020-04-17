@@ -1501,7 +1501,7 @@ h3 {
 
 /* line 21, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
 .practice_area .single_practice .practice_image img {
-  width: 100%;
+  width: 90%;
 }
 
 /* line 25, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
@@ -1509,8 +1509,9 @@ h3 {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
+  margin-left: 5%;
   background: rgba(31, 31, 31, 0.4);
 }
 
