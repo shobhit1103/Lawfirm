@@ -151,10 +151,16 @@ body {
 .ly-img{
   margin-top: 20px;
 }
-.ly-img > h3{
+.ly-img > h6{
   margin-top: 20px;
   font-family: sans-serif;
 }
+.ly-img > h4{
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+
 
 .ly-img > img{
   width:150px;
@@ -165,12 +171,13 @@ body {
 
 .description{
   text-align: justify;
+  /* padding-left: 40px; */
+  margin-top: 20px;
   flex-shrink: inherit;
   /* width: 600px; */
   width: 50vw;
   /* overflow: auto; */
   padding-left: 10px;
-  margin-top: 20px;
 }
 
 .description > h3 {
@@ -208,7 +215,11 @@ a:hover {
 
 
 
-
+@media (max-width: 576px){
+  .description {
+    width: 400px;
+  }
+}
 
 /* line 14, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
 .img {
@@ -1229,7 +1240,7 @@ h3 {
 }
 
 .slider_bg_7 {
-  background-image: url(../img/IMG@12.jpg);
+  background-image: url(../img/IMG@12.jpeg);
   
 }
 
@@ -1644,6 +1655,12 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
 }
+
+h6{
+  color:rgb(97, 98, 100);
+}
+
+
 
 @media (max-width: 767px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
@@ -5238,12 +5255,6 @@ h6 {
   }
 }
 
-/* 956 */
-@media (max-width: 576px){
-  .description {
-    width: 400px;
-  }
-}
 /* line 1445, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_blog.scss */
 .comment-form .form-control {
   border: 1px solid #f0e9ff;
