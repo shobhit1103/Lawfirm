@@ -598,15 +598,16 @@ h3 {
 
 /* line 63, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_btn.scss */
 .boxed-btn4 {
+  margin-left: -150px;
   background: transparent;
-  color:  rgb(43, 27, 104);
+  color:  rgb(251, 250, 255);
   display: inline-block;
   padding: 15px 44px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  border: 0;
-  border: 1px solid  rgb(43, 27, 104);
+   border: 0;
+  border: 1px solid  rgb(255, 255, 255);
   text-align: center;
   text-transform: capitalize;
   border-radius:90px;
@@ -1213,12 +1214,15 @@ h3 {
 
 /* line 208, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
 .header-area .social_media_links ul li a:hover {
-  color: #F2C64D;
+  color: rgb(102, 77, 242);
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/IMG@17.jpg);
+  background-image: url(../img/IMG@19.jpeg);
+ 
+  
+  
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
@@ -1244,7 +1248,7 @@ h3 {
 }
 
 .slider_bg_7 {
-  background-image: url(../img/IMG@12.jpeg);
+  background-image: url(../img/IMG@12.jpg);
   
 }
 
