@@ -189,6 +189,13 @@ body {
   font-family: sans-serif;
 }
 
+@media (max-width: 576px){
+  .description {
+    width: 400px;
+  }
+}
+
+
 #close-btn{
   background-color:white;
   border: 1px solid #999;
