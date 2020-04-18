@@ -144,6 +144,7 @@ body {
       padding: 30px;
       overflow:scroll;
       flex-wrap: wrap;
+      overflow: scroll;
       overflow-x: hidden;
       z-index:200;
 }
@@ -170,15 +171,13 @@ body {
 }
 
 .description{
-  text-align: justify;	  text-align: justify;
-  /* padding-left: 40px; */	  padding-left: 40px;
-  margin-top: 20px;	  margin-top: 20px;
+  text-align: justify;
   flex-shrink: inherit;	
   /* width: 600px; */	
   width: 50vw;	
   /* overflow: auto; */	
   padding-left: 10px;
-  
+  margin-top: 20px;
 }
 
 .description > h3 {
