@@ -49,6 +49,39 @@ body {
 }
 
 
+/* acc start */
+
+.accordion {
+  background-color: rgb(97, 98, 100);
+  color: #fff;
+  cursor: pointer;
+  padding: 25px;
+  padding-right: 25px;
+  padding-left:25px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-left: 15%;
+}
+
+ .accordion:hover {
+  background-color:  rgb(61, 31, 184); 
+}
+
+.panel {
+  
+  display: none;
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+
+/* acc end*/
+
 
 .img-pad:hover {
   transition: 0.3s;
