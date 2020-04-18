@@ -58,13 +58,14 @@ body {
   padding: 25px;
   padding-right: 25px;
   padding-left:25px;
-  width: 70%;
+  width: 78%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
-  margin-left: 15%;
+  margin-left: 11%;
+  
 }
 
  .accordion:hover {
@@ -77,6 +78,9 @@ body {
   background-color: white;
   padding-left: 25px;
   padding-right: 25px;
+  padding-top: 25px;
+  width: 78%;
+  margin-left: 11%;
   
 }
 
@@ -2225,7 +2229,7 @@ h6{
 .bradcam_inner::before {
   position: absolute;
   content: "";
-  background: #000;
+  background:;
   width: 100%;
   height: 100%;
   left: 0;
