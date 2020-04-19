@@ -104,6 +104,13 @@ body {
 
 /* acc end*/
 
+ /* carousol */
+ 
+
+
+/* carousol end */
+
+
 .container-bg{
   background-color:rgb(97, 98, 100);
   padding-top: 25px;
@@ -1344,20 +1351,16 @@ h3 {
 .foot{
   margin-top:7%;
 }
-/* line 7, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area {
-  
   background: #000;
 }
 
 @media (max-width: 767px) {
-  /* line 7, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
   .slider_area {
     padding: 0 20px;
   }
 }
 
-/* line 14, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area_inner {
   height: 550px;
   position: relative;
@@ -1370,42 +1373,36 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 14, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
-  .slider_area_inner {
+ .slider_area_inner {
     height: 420px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 14, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
-  .slider_area_inner {
+ .slider_area_inner {
     height: 500px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 14, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
-  .slider_area_inner {
+ .slider_area_inner {
     height: 500px;
     background-position: right;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 14, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
   .slider_area_inner {
     height: 600px;
     background-position: right;
   }
 }
 
-/* line 37, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area_inner .single_slider {
   position: relative;
   z-index: 8;
 }
 
-/* line 41, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area_inner .single_slider .slider_text h3 {
   color: #ffffff;
   font-weight: 400;
@@ -1418,7 +1415,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 41, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
   .slider_area_inner .single_slider .slider_text h3 {
     font-size: 25px;
     line-height: 35px;
@@ -1426,7 +1422,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 41, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
   .slider_area_inner .single_slider .slider_text h3 {
     font-size: 30px;
     line-height: 46px;
@@ -1434,7 +1429,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 41, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
   .slider_area_inner .single_slider .slider_text h3 {
     font-size: 35px;
     line-height: 56px;
@@ -1442,13 +1436,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 62, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
+  
   .slider_area_inner .single_slider .slider_text h3 br {
     display: none;
   }
 }
 
-/* line 68, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area_inner .single_slider .slider_text p {
   font-size: 26px;
   font-weight: 400;
@@ -1459,36 +1452,31 @@ h3 {
   font-style: italic;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 68, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
-  .slider_area_inner .single_slider .slider_text p {
+@media (min-width: 992px) and (max-width: 1200px) { */
+  /* .slider_area_inner .single_slider .slider_text p {
     font-size: 16px;
   }
 }
 
-@media (max-width: 767px) {
-  /* line 68, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
-  .slider_area_inner .single_slider .slider_text p {
+@media (max-width: 767px) { */
+  /* .slider_area_inner .single_slider .slider_text p {
     font-size: 14px;
     margin-bottom: 25px;
   }
 }
 
-@media (max-width: 767px) {
-  /* line 83, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
-  .slider_area_inner .single_slider .slider_text p br {
+@media (max-width: 767px) { */
+  /* .slider_area_inner .single_slider .slider_text p br {
     display: none;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 83, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
-  .slider_area_inner .single_slider .slider_text p br {
+@media (min-width: 768px) and (max-width: 991px) { */
+  /* .slider_area_inner .single_slider .slider_text p br {
     display: none;
   }
 }
 
-/* line 94, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_area_inner .single_slider .slider_text p.name {
   font-size: 16px;
   margin-top: 20px;
