@@ -689,6 +689,10 @@ h3 {
 
 /* line 63, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_btn.scss */
 .boxed-btn4 {
+  min-width: 180px;
+  height: 60px;
+  margin-top:100px;
+  margin-left: 40%;
   background: transparent;
   color:  rgb(251, 250, 255);
   display: inline-block;
@@ -696,7 +700,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-   border: 0;
+  border: 0;
   border: 1px solid  rgb(255, 255, 255);
   text-align: center;
   text-transform: capitalize;
