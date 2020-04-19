@@ -104,9 +104,9 @@ body {
   background-color:  rgb(61, 31, 184); 
 }
 
-.active, .accordion:hover {
-  /* background-color: #ccc; */
-}
+/* .active, .accordion:hover {
+   background-color: #ccc; 
+} */
 
 .accordion:after {
   content: '\002B';
@@ -911,7 +911,7 @@ h3 {
 }
 
 /* line 32, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav a.active {
+.slicknav_menu .slicknav_nav a.activa {
   color: #F2C64D;
 }
 
@@ -1134,7 +1134,7 @@ h3 {
 }
 
 /* line 73, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a.active {
+.header-area .main-header-area .main-menu ul li a.activa {
   color: rgb(0, 0, 0);  /*Nav elements color*/
 }
 
@@ -1162,7 +1162,7 @@ h3 {
 }
 
 /* line 93, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a.active::before {
+.header-area .main-header-area .main-menu ul li a.activa::before {
   opacity: 1;
   transform: scaleX(1);
 }
@@ -2543,7 +2543,7 @@ h6{
 }
 
 /* line 94, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_appoinment.scss */
-.gj-textbox-md:focus, .gj-textbox-md:active {
+.gj-textbox-md:focus, .gj-textbox-md:activa {
   border-bottom: 1px solid #c7c7c7;
   outline: none;
 }
@@ -4916,7 +4916,7 @@ h6 {
 }
 
 /* line 1017, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_blog.scss */
-.blog-pagination .page-item.active .page-link {
+.blog-pagination .page-item.activa .page-link {
   background-color: #fbf9ff;
   border-color: #f0e9ff;
   color: #888888;
