@@ -49,11 +49,12 @@ body {
 }
 
 
+
 /* acc start */
 
 .accordion {
-  background-color: #fff;
-  color:black;
+  background-color: rgb(17, 14, 14);
+  color:#fff;
   cursor: pointer;
   padding: 25px;
   padding-right: 25px;
@@ -65,10 +66,11 @@ body {
   font-size: 15px;
   transition: 0.5s;
   margin-left: 11%;
+  box-shadow: 1px 5px 10px 1px #777 ;
 }
 
 .accordion:hover {
-  background-color:  rgb(61, 31, 184); 
+  background-color:  #777; 
 }
 
 /* .active, .accordion:hover {
@@ -87,10 +89,13 @@ body {
   content: "\2212";
 }
 
+.text-pad{
+  padding-top: 10px;
+}
 .panel {
   padding-left: 25px;
   padding-right: 25px;
-  /* padding-top: 25px; */
+   padding-top: 2px; 
   width: 78%;
   margin-left: 11%;
   background-color: white;
@@ -112,7 +117,7 @@ body {
 
 
 .container-bg{
-  background-color:rgb(97, 98, 100);
+  background-color: #fff;
   padding-top: 25px;
   padding-bottom: 25px;
   width: 79%;
@@ -1541,9 +1546,7 @@ h3 {
   
 }
 
-.margin{
-  padding-bottom:7%;
-}
+
 
 
 /* line 13, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_practice.scss */
