@@ -77,6 +77,19 @@ body {
    background-color: #ccc; 
 } */
 
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+@media (max-width: 992px){
+  .top-header {
+    justify-content: space-around;
+  }
+}
+
 .accordion:after {
   content: '\002B';
   color: #fff;
